@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Aswale | AI/ML & Full-Stack Engineer Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eef2ff',
+                            100: '#e0e7ff',
+                            500: '#6366f1',
+                            600: '#4f46e5',
+                            700: '#4338ca',
+                            900: '#312e81',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <nav class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#hero" class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-emerald-400 bg-clip-text text-transparent">
+                Abhishek Aswale
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-indigo-400 transition">About</a>
+                <a href="#projects" class="hover:text-indigo-400 transition">Projects</a>
+                <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
+                <a href="#certifications" class="hover:text-indigo-400 transition">Certifications</a>
+                <a href="#contact" class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white transition shadow-lg shadow-indigo-500/20">Get in Touch</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center pt-20 px-6 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900/20 via-slate-950 to-slate-950">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold mb-6">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Available for AI/ML & Software Roles
+            </div>
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6">
+                Hi, I'm <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent">Abhishek Aswale</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+                4th-year B.Tech Computer Science Engineering student at GH Raisoni University, Amravati. Specialized in building production-grade RAG pipelines, Computer Vision systems, and Agentic AI workflows.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#projects" class="px-8 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold transition shadow-lg shadow-indigo-600/30 flex items-center gap-2">
+                    <i class="fa-solid fa-code"></i> Explore Projects
+                </a>
+                <a href="https://github.com/AbhiAIverse" target="_blank" class="px-8 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-200 font-semibold transition flex items-center gap-2">
+                    <i class="fa-brands fa-github"></i> GitHub Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 px-6 border-t border-slate-900 bg-slate-900/40">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-8 text-center">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-4 text-slate-300 leading-relaxed">
+                    <p>
+                        I am a 23-year-old software engineer and AI practitioner based in India. Currently completing my B.Tech in Computer Science Engineering at <span class="text-white font-semibold">GH Raisoni University, Amravati</span> (7th semester), with practical training from <span class="text-white font-semibold">DataMites Pune</span>.
+                    </p>
+                    <p>
+                        My technical focus centers on Generative AI, Retrieval-Augmented Generation (RAG), and Computer Vision systems. I actively maintain open-source projects under my GitHub handle <code class="text-indigo-400 bg-slate-900 px-2 py-0.5 rounded">AbhiAIverse</code> and build modern AI-driven solutions using Python, LangChain, CrewAI, and FastAPI.
+                    </p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl">
+                    <h3 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-graduation-cap text-indigo-400"></i> Education & Background
+                    </h3>
+                    <ul class="space-y-4 text-sm text-slate-300">
+                        <li class="border-l-2 border-indigo-500 pl-4">
+                            <span class="text-white font-medium block">B.Tech in Computer Science Engineering</span>
+                            <span class="text-slate-400">GH Raisoni University, Amravati • 7th Semester (2026)</span>
+                        </li>
+                        <li class="border-l-2 border-emerald-500 pl-4">
+                            <span class="text-white font-medium block">AI & Data Science Practical Training</span>
+                            <span class="text-slate-400">DataMites Pune • Completed June 2026</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 px-6 border-t border-slate-900">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-4 text-center">Featured Projects</h2>
+            <p class="text-slate-400 text-center mb-16 max-w-xl mx-auto">Production-grade systems engineered with advanced AI, computer vision, and secure backend architectures.</p>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- AuraSync AI -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-indigo-500/50 transition">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold text-white">AuraSync AI</h3>
+                            <span class="px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-semibold">Deployed</span>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                            A computer vision and generative wellness monitoring platform utilizing MediaPipe Face Mesh, Scikit-Learn Logistic Regression, SQLite, ReportLab PDF generation, and Streamlit Community Cloud hosting.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">Python</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">MediaPipe</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">Scikit-Learn</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">Streamlit</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-800">
+                        <a href="https://github.com/AbhiAIverse" target="_blank" class="text-sm font-medium text-indigo-400 hover:text-indigo-300 flex items-center gap-1.5">
+                            <i class="fa-brands fa-github"></i> View Repository
+                        </a>
+                    </div>
+                </div>
+
+                <!-- AI Lawyer RAG Assistant -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-indigo-500/50 transition">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold text-white">AI Lawyer RAG Assistant</h3>
+                            <span class="px-2.5 py-1 rounded-full bg-indigo-500/10 text-indigo-400 text-xs font-semibold">AI / NLP</span>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                            Legal assistant built using Retrieval-Augmented Generation (RAG), embedding generation, vector search, and Large Language Models to analyze and parse complex legal jurisprudence and documents.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">LangChain</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">Vector Search</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">Embeddings</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">Python</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-800">
+                        <a href="https://github.com/AbhiAIverse" target="_blank" class="text-sm font-medium text-indigo-400 hover:text-indigo-300 flex items-center gap-1.5">
+                            <i class="fa-brands fa-github"></i> View Repository
+                        </a>
+                    </div>
+                </div>
+
+                <!-- StressSense -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-indigo-500/50 transition">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold text-white">StressSense</h3>
+                            <span class="px-2.5 py-1 rounded-full bg-purple-500/10 text-purple-400 text-xs font-semibold">Computer Vision</span>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                            Real-time computer vision system built with FER, MediaPipe, SciPy, and OpenCV for facial feature extraction, landmark tracking, and real-time emotion recognition.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">OpenCV</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">MediaPipe</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">SciPy</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">FER</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-800">
+                        <a href="https://github.com/AbhiAIverse" target="_blank" class="text-sm font-medium text-indigo-400 hover:text-indigo-300 flex items-center gap-1.5">
+                            <i class="fa-brands fa-github"></i> View Repository
+                        </a>
+                    </div>
+                </div>
+
+                <!-- AI CyberShield -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-indigo-500/50 transition">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold text-white">AI CyberShield</h3>
+                            <span class="px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-400 text-xs font-semibold">Machine Learning</span>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                            Machine learning classification model designed for detecting and flagging phishing websites through heuristic analysis and feature extraction.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">Python</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">Scikit-Learn</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">Pandas</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-800 text-indigo-300 text-xs font-medium">Classification</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-800">
+                        <a href="https://github.com/AbhiAIverse" target="_blank" class="text-sm font-medium text-indigo-400 hover:text-indigo-300 flex items-center gap-1.5">
+                            <i class="fa-brands fa-github"></i> View Repository
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 px-6 border-t border-slate-900 bg-slate-900/40">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-4 text-center">Technical Skills</h2>
+            <p class="text-slate-400 text-center mb-16">Core technologies and frameworks I use to build robust applications.</p>
+
+            <div class="grid sm:grid-cols-3 gap-8">
+                <!-- Languages -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                    <h3 class="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-code text-indigo-400"></i> Languages
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">Python</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">SQL</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">R</span>
+                    </div>
+                </div>
+
+                <!-- AI / ML & Frameworks -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                    <h3 class="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-brain text-purple-400"></i> AI & Frameworks
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">LangChain</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">CrewAI</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">OpenCV</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">MediaPipe</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">Scikit-Learn</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">RAG</span>
+                    </div>
+                </div>
+
+                <!-- Tools & DevOps -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                    <h3 class="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-toolbox text-emerald-400"></i> Tools & DevOps
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">Git / GitHub</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">Docker</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">Streamlit</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">PowerShell</span>
+                        <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-24 px-6 border-t border-slate-900">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-4 text-center">Certifications & Credentials</h2>
+            <p class="text-slate-400 text-center mb-16">Continuous learning and professional accreditations.</p>
+
+            <div class="space-y-4">
+                <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl flex items-center justify-between">
+                    <div>
+                        <h4 class="text-white font-semibold">IBM SkillsBuild Artificial Intelligence Fundamentals</h4>
+                        <p class="text-sm text-slate-400">Credly Digital Credential</p>
+                    </div>
+                    <span class="px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400 text-xs font-semibold">Verified</span>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl flex items-center justify-between">
+                    <div>
+                        <h4 class="text-white font-semibold">Anthropic AI Fluency for Students</h4>
+                        <p class="text-sm text-slate-400">Anthropic Certification</p>
+                    </div>
+                    <span class="px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400 text-xs font-semibold">Verified</span>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl flex items-center justify-between">
+                    <div>
+                        <h4 class="text-white font-semibold">Multi-AI Agent Systems with crewAI</h4>
+                        <p class="text-sm text-slate-400">DeepLearning.AI Short Course</p>
+                    </div>
+                    <span class="px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400 text-xs font-semibold">Verified</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 px-6 border-t border-slate-900 bg-slate-900/40 text-center">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-4">Let's Connect</h2>
+            <p class="text-slate-400 mb-8">I'm actively looking for opportunities in AI/ML, Data Science, and Software Development. Reach out via email or connect with me on GitHub and LinkedIn.</p>
+            <div class="flex justify-center gap-6">
+                <a href="mailto:abhishekaswale1802@gmail.com" class="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold transition flex items-center gap-2">
+                    <i class="fa-solid fa-envelope"></i> Email Me
+                </a>
+                <a href="https://github.com/AbhiAIverse" target="_blank" class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-200 font-semibold transition flex items-center gap-2">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-900 text-center text-sm text-slate-500">
+        <p>© 2026 Abhishek Aswale. Built with Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
